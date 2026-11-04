@@ -1,19 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="24dp" android:background="@color/bg_light">
+    <ImageView android:layout_width="96dp" android:layout_height="96dp" android:src="@android:drawable/ic_menu_search" app:tint="@color/kabarak_blue" android:contentDescription="App icon"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Campus Lost and Found" android:textSize="28sp" android:textStyle="bold" android:textColor="@color/kabarak_blue" android:layout_marginTop="16dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome! Lost something on campus? Found something? Report it here and help it find its owner." android:textSize="16sp" android:gravity="center" android:layout_marginTop="12dp" android:layout_marginBottom="32dp"/>
+    <Button android:id="@+id/btnLost" android:layout_width="match_parent" android:layout_height="60dp" android:text="Report Lost Item" android:backgroundTint="#C62828" android:drawableStart="@android:drawable/ic_menu_help" android:layout_marginBottom="12dp"/>
+    <Button android:id="@+id/btnFound" android:layout_width="match_parent" android:layout_height="60dp" android:text="Report Found Item" android:backgroundTint="@color/kabarak_green" android:drawableStart="@android:drawable/ic_menu_add" android:layout_marginBottom="12dp"/>
+    <Button android:id="@+id/btnView" android:layout_width="match_parent" android:layout_height="60dp" android:text="View Items" android:backgroundTint="@color/kabarak_blue" android:drawableStart="@android:drawable/ic_menu_view"/>
+</LinearLayout>
