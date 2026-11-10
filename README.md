@@ -25,7 +25,7 @@ belongings within the campus community.
 -   User Interface: Features a structured and user-friendly interface
     with appropriate colours, icons, spacing, and layouts.
 
-###Technologies Used
+##Technologies Used
 
 -   Java – Application logic and functionality.
 -   XML – Designing application layouts and user interfaces.
