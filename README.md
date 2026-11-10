@@ -1,6 +1,6 @@
-#Campus Lost and Found App
+# Campus Lost and Found App
 
-##Overview
+## Overview
 
 Campus Lost and Found is an Android mobile application designed to help
 students and members of the university community report lost items,
@@ -10,7 +10,7 @@ The application provides a centralized platform for managing lost and
 found items, making it easier for people to reconnect with their missing
 belongings within the campus community.
 
-##Features
+## Features
 
 -   Home Screen: Provides navigation to the main application features.
 -   Report Lost Items: Allows users to submit details about belongings
@@ -25,7 +25,7 @@ belongings within the campus community.
 -   User Interface: Features a structured and user-friendly interface
     with appropriate colours, icons, spacing, and layouts.
 
-##Technologies Used
+## Technologies Used
 
 -   Java – Application logic and functionality.
 -   XML – Designing application layouts and user interfaces.
@@ -33,7 +33,7 @@ belongings within the campus community.
 -   Git – Version control.
 -   GitHub – Code hosting and team collaboration.
 
-##Project Structure
+## Project Structure
 
 Component: Home Screen Main Files: MainActivity.java, activity_main.xml
 
@@ -48,7 +48,7 @@ ViewItemsActivity.java
 
 Component: UI, Colours and Icons Main Files: app_values.xml
 
-##Installation and Setup
+## Installation and Setup
 
 Follow these steps to run the application locally:
 
@@ -65,7 +65,7 @@ Follow these steps to run the application locally:
 5.  Run the application using an Android emulator or a connected Android
     device.
 
-##Project Objectives
+## Project Objectives
 
 -   Develop a functional Android mobile application.
 -   Apply Android widgets, layouts, and event handling.
