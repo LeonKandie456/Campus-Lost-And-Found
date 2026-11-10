@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="12dp" android:background="@color/bg_light">
+    <EditText android:id="@+id/etSearch" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Search by item name" android:drawableStart="@android:drawable/ic_menu_search" android:inputType="text"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Spinner android:id="@+id/spFilterCategory" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"/>
+        <Spinner android:id="@+id/spFilterStatus" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tvEmpty" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No items found." android:gravity="center" android:padding="24dp" android:visibility="gone"/>
+    <ListView android:id="@+id/listItems" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="8dp"/>
+</LinearLayout>

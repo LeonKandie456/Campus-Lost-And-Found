@@ -1,11 +1,9 @@
 package com.kabarak.campuslostandfound;
 
-public class ReportActivity package com.kabarak.campuslostandfound;
-
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.widget.*;
-        import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Calendar;
 
@@ -70,6 +68,4 @@ public class ReportActivity extends AppCompatActivity {
     }
 
     private boolean isEmpty(EditText e) { return e.getText().toString().trim().isEmpty(); }
-}
-{
 }
